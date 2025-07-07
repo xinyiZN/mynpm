@@ -1,5 +1,5 @@
 {
-  "name": "mynpm",
+  "name": "@xxin_/mynpm",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,11 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^30.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@xxin_/mynpm": "^1.0.0"
   }
 }
